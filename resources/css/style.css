@@ -1,0 +1,179 @@
+body {
+  width: 100%;
+  background-color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  background-color: white;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+  color: MediumAquamarine;
+}
+
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+header nav {
+  padding-right: 40px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: black;
+}
+
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large {
+  min-width: 630px;
+  display: flex;
+}
+
+.column.medium {
+  width: 300px;
+  display: flex;
+}
+
+.column.small {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.lead-story .image-content {
+  background-image: url("../images/mainstory.png");
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+
+.image-content {
+  display: flex;
+  font-family: Georiga;
+  font-weight: bold;
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  height: 300px;
+}
+
+.fall-cancelled {
+  background-image: url("../images/fallseason.png");
+}
+
+.pop-culture {
+  background-image: url("../images/hipstercamera.png");
+}
+
+.cat-ceo {
+  background-image: url("../images/catceo.png");
+}
+
+.narrative {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  margin-top: 16px;
+}
+
+.stories {
+  dispay: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.story {
+width: 300px;
+display: inline-flex;
+flex-direction: column;
+
+}
+
+.stories .text-content {
+  height: 275px;
+}
+
+.news-bites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 41px;
+}
+
+.bite {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  display: flex;
+  padding: 11px 20px;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 325px;
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+.info {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+  border-right: 2px solid white;
+}
+
+.footer nav {
+  padding-left: 25px;
+}
